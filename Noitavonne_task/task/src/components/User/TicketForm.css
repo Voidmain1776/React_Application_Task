@@ -1,0 +1,41 @@
+.TicketForm {
+    margin: 20px;
+  }
+  
+  .TicketForm h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .TicketForm form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .TicketForm input[type="text"],
+  .TicketForm textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .TicketForm input[type="file"] {
+    margin-bottom: 10px;
+  }
+  
+  .TicketForm button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .TicketForm button:hover {
+    background-color: #0056b3;
+  }
+  

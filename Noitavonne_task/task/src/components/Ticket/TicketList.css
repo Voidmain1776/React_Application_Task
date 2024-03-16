@@ -1,0 +1,22 @@
+.TicketList {
+    margin: 20px;
+  }
+  
+  .TicketList h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .TicketList ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .TicketList li {
+    margin-bottom: 5px;
+  }
+  
+  .TicketList li:hover {
+    background-color: #f0f0f0;
+    cursor: pointer;
+  }

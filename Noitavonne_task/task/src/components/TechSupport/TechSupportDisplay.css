@@ -1,0 +1,38 @@
+.TechSupportDisplay {
+    margin: 20px;
+  }
+  
+  .TechSupportDisplay h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .TechSupportDisplay ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .TechSupportDisplay li {
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .TechSupportDisplay li:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .TechSupportDisplay button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  .TechSupportDisplay button:hover {
+    background-color: #0056b3;
+  }  

@@ -1,0 +1,34 @@
+.UserDisplay {
+    margin: 20px;
+  }
+  
+  .UserDisplay h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .UserDisplay ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .UserDisplay li {
+    margin-bottom: 10px;
+  }
+  
+  .UserDisplay li div {
+    font-weight: bold;
+  }
+  
+  .UserDisplay button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .UserDisplay button:hover {
+    background-color: #0056b3;
+  }

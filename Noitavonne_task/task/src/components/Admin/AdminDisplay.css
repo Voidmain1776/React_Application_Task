@@ -1,0 +1,38 @@
+.AdminDisplay {
+    margin: 20px;
+  }
+  
+  .AdminDisplay h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .AdminDisplay ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .AdminDisplay li {
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .AdminDisplay li:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .AdminDisplay button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  .AdminDisplay button:hover {
+    background-color: #0056b3;
+  }  

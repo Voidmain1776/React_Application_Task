@@ -1,0 +1,12 @@
+.TicketDetail {
+    margin: 20px;
+  }
+  
+  .TicketDetail h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .TicketDetail p {
+    margin-bottom: 10px;
+  }
