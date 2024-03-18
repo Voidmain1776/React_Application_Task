@@ -14,7 +14,7 @@ Git: Download and install Git
 
 git clone https://github.com/Voidmain1776/React_Application_Task.git
 
-cd React_Application_Task
+cd task
 
 npm install
 
