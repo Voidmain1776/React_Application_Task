@@ -1,11 +1,10 @@
 import { combineReducers } from '@reduxjs/toolkit';
-import authenticationReducer from './authentication'; // Corrected import statement
+import authenticationReducer from './authentication';
 import ticketReducer from './ticket';
 
 const rootReducer = combineReducers({
-  auth: authenticationReducer, // Corrected reducer name
+  auth: authenticationReducer,
   ticket: ticketReducer,
-  // Add other reducers as needed
 });
 
 export default rootReducer;

@@ -8,7 +8,7 @@ const UserDisplay = () => {
   const dispatch = useDispatch();
   const tickets = useSelector((state) => state.ticket.tickets);
 
-  const TicketSelect = (ticketId) => {
+  const handleTicketSelect = (ticketId) => {
     dispatch(selectTicket(ticketId));
   };
 
@@ -20,7 +20,7 @@ const UserDisplay = () => {
         {tickets.map((ticket) => (
           <li key={ticket.id}>
             <div>{ticket.title}</div>
-            <button onClick={() => TicketSelect(ticket.id)}>View</button>
+            <button onClick={() => handleTicketSelect(ticket.id)}>View</button>
           </li>
         ))}
       </ul>
@@ -29,4 +29,3 @@ const UserDisplay = () => {
 };
 
 export default UserDisplay;
-

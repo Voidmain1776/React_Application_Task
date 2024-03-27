@@ -1,20 +1,22 @@
-import axios from 'axios';
-
-// API base URL
-const API_URL = 'http://your-api-url.com';
-
-// login
-export const login = async (credentials) => {
+const login = async (credentials) => {
   try {
-    const response = await axios.post(`${API_URL}/login`, credentials);
-    return response.data;
-  } catch (error) {
-    throw error;
-  }
-}
+    const response = await fetch('your_login_endpoint', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify(credentials)
+    });
 
-const Api = {
-  login
+    if (!response.ok) {
+      throw new Error('Failed to login');
+    }
+
+    const data = await response.json();
+    return data;
+  } catch (error) {
+    throw new Error('Login failed: ' + error.message);
+  }
 };
 
-export default Api;
+export { login };
